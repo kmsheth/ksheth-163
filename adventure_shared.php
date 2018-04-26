@@ -3,13 +3,13 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$dotenv = new Dotenv\Dotenv(__DIR__);
+//$dotenv = new Dotenv\Dotenv(__DIR__);
 
-if(getenv('APP_ENV') === 'development')
-  {
-  $dotenv->load();
-}
-$dotenv->required(['DATABASE_URL']);
+//if(getenv('APP_ENV') === 'development')
+//  {
+//  $dotenv->load();
+//  }
+//$dotenv->required(['DATABASE_URL']);
 
 $dbopts = parse_url(getenv('DATABASE_URL'));
 
