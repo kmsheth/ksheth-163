@@ -15,7 +15,7 @@ include("adventure_shared.php");
 		print_languages();
 	?>
 	<p>...and has a <?php print_economy(); ?> economy</p>
-	
+
     <h2>Countries that fit your preferences for your next adventure are:</h2>
 	<?php
 		print_countries();
@@ -70,7 +70,7 @@ include("adventure_shared.php");
 			$query->execute();
 			$rows = $query->fetchAll();
 			foreach($rows as $row){
-				$choice = $row["Name"];
+				$choice = $row["name"];
 			?>
 				<ul>
 				<li><?= $choice ?></li>
