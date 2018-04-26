@@ -1,0 +1,17 @@
+{
+    "name": "ksheth/163worldproject",
+    "description": "COMP 163 World Traveler Recommender Project",
+    "type": "project",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Katya Sheth",
+            "email": "k_sheth@u.pacific.edu"
+        }
+    ]
+}
